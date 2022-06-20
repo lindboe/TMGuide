@@ -1,0 +1,48 @@
+{
+  "name": "rtn-calculator",
+  "version": "0.0.1",
+  "description": "Add numbers with TurboModules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-calculator.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/<your_github_handle>/rtn-calculator",
+  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/<your_github_handle>)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<your_github_handle>/rtn-calculator/issues"
+  },
+  "homepage": "https://github.com/<your_github_handle>/rtn-calculator#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "RTNCalculatorSpec",
+        "type": "modules",
+        "jsSrcsDir": "js"
+      }
+    ]
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.2"
+  }
+}
